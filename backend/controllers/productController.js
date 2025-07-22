@@ -4,9 +4,9 @@ const { fileSizeFormatter } = require("../utils/fileUpload");
 const cloudinary = require("cloudinary").v2;
 
 cloudinary.config({
-  cloud_name: 'de4esrljh',
-  api_key: '764961474183457',
-  api_secret: 'skPxNy2NXQA0h8Wk8p-E4jOqlmI'
+  cloud_name: 'your_cloud_name',
+  api_key: 'your_api_key',
+  api_secret: 'your_api_secret'
 });
 // Create Prouct
 const createProduct = asyncHandler(async (req, res) => {
